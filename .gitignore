@@ -1,1 +1,16 @@
+# 파이썬 캐시
 __pycache__/
+*.pyc
+
+# 데이터 파일
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.zip
+output/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 주피터 체크포인트
+.ipynb_checkpoints/
