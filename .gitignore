@@ -12,6 +12,8 @@ output/*
 !output/node_list.csv
 !output/hourly_power_36m.csv
 !output/efficiency_36m.csv
+!output/hourly_ratio_sample.png
+!output/corr_log_population_power.png
 
 # OS 파일
 .DS_Store
