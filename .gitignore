@@ -8,7 +8,7 @@ data/**/*.xlsx
 data/**/*.zip
 
 # output 전체 제외하되 핵심 파일은 포함
-output/
+output/*
 !output/node_list.csv
 !output/hourly_power_36m.csv
 !output/efficiency_36m.csv
