@@ -6,8 +6,12 @@ __pycache__/
 data/**/*.csv
 data/**/*.xlsx
 data/**/*.zip
+dataset/
 
 # output 전체 제외하되 핵심 파일은 포함
+NEW/OUTPUT/* 
+!NEW/OUTPUT/
+!NEW/OUTPUT/서울시_공영주차장_축3.csv
 output/*
 !output/node_list.csv
 !output/hourly_power_36m.csv
