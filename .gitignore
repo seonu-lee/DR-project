@@ -2,26 +2,21 @@
 __pycache__/
 *.pyc
 
-# 데이터 파일
-data/**/*.csv
-data/**/*.xlsx
-data/**/*.zip
-dataset/
-
-# output 전체 제외하되 핵심 파일은 포함
-NEW/OUTPUT/* 
-!NEW/OUTPUT/
-!NEW/OUTPUT/서울시_공영주차장_축3.csv
-output/*
-!output/node_list.csv
-!output/hourly_power_36m.csv
-!output/efficiency_36m.csv
-!output/hourly_ratio_sample.png
-!output/corr_log_population_power.png
-
 # OS 파일
 .DS_Store
 Thumbs.db
 
 # 주피터 체크포인트
 .ipynb_checkpoints/
+
+# 산출물 
+#canopy/output/figures/
+
+# 대용량 데이터
+canopy/data/raw/
+dr_project/data/population/
+dr_project/data/energy/
+dr_project/output/*.csv
+
+# 노트북 output 제거 (선택)
+# *.ipynb 는 추적하되 output만 날리려면 nbstripout 쓰는 게 나음
