@@ -1,0 +1,91 @@
+[33mcommit 0cc0ad7b27948ee79b54c69fea3944cfec64dc21[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: leeseonu <2229021@ewhain.net>
+Date:   Thu Apr 23 20:22:33 2026 +0900
+
+    0423
+
+ ...\274\354\260\250\354\236\245_\354\266\2253.csv" |    101 [31m-[m
+ ...62\230\353\246\254\354\231\204\353\243\214.csv" |    101 [32m+[m
+ .../data/processed/parking_axis3_preprocessed.csv  |    743 [32m+[m
+ canopy/data/processed/parking_preprocessed.csv     |    743 [32m+[m
+ canopy/data/processed/solar_parking_list.csv       |     75 [32m+[m
+ ...270_EV\354\266\251\354\240\204\354\206\214.csv" |  74041 [32m++++[m
+ ...\274\354\260\250\354\236\245_\354\266\2253.csv" |    101 [32m+[m
+ .../\354\266\2253_\354\240\220\354\210\230.csv"    |    101 [32m+[m
+ ...4\204\244\355\230\204\355\231\251_2025_12.xlsx" |    Bin [31m0[m -> [32m315699[m bytes
+ ...\225\353\263\264(\354\233\220\353\263\270).csv" |   3697 [32m+[m
+ ...4\355\231\251(26\353\205\2043\354\233\224).csv" |    586 [32m+[m
+ canopy/notebooks/01_EDA.ipynb                      |   2881 [32m+[m
+ canopy/notebooks/02_preprocessing.ipynb            |    981 [32m+[m
+ canopy/notebooks/03_analysis_axis3.ipynb           |   1398 [32m+[m
+ .../01\354\240\204\354\262\230\353\246\254.ipynb"  |      0
+ .../archive/02\353\266\204\354\204\235.ipynb"      |    245 [32m+[m[31m-[m
+ ...70\260\353\263\270\353\266\204\355\217\254.png" |    Bin [31m0[m -> [32m53238[m bytes
+ ...\245 \354\210\230 \353\266\204\355\217\254.png" |    Bin [31m0[m -> [32m34525[m bytes
+ ...204\355\217\254 (\354\247\200\353\217\204).png" |    Bin [31m0[m -> [32m351355[m bytes
+ ...4\244\354\271\230 \355\230\204\355\231\251.png" |    Bin [31m0[m -> [32m24111[m bytes
+ concat.py => dr_project/concat.py                  |      0
+ crawler.py => dr_project/crawler.py                |      0
+ dr_project/data/energy/energy_2018.xlsx            |    Bin [31m0[m -> [32m57658[m bytes
+ dr_project/data/energy/energy_2019.xlsx            |    Bin [31m0[m -> [32m57481[m bytes
+ dr_project/data/energy/energy_2020.xlsx            |    Bin [31m0[m -> [32m57158[m bytes
+ dr_project/data/energy/energy_2021.xlsx            |    Bin [31m0[m -> [32m57500[m bytes
+ dr_project/data/energy/energy_2022.xlsx            |    Bin [31m0[m -> [32m57621[m bytes
+ dr_project/data/energy/energy_2023.xlsx            |    Bin [31m0[m -> [32m57651[m bytes
+ dr_project/data/energy/energy_2024.xlsx            |    Bin [31m0[m -> [32m57824[m bytes
+ dr_project/data/energy/energy_2025.xlsx            |    Bin [31m0[m -> [32m43095[m bytes
+ dr_project/data/energy/seoul_energy_total.xlsx     |    Bin [31m0[m -> [32m430799[m bytes
+ ...\225\221\354\240\225\353\263\264_20241218.xlsx" |    Bin [31m0[m -> [32m35670[m bytes
+ .../data/population/LOCAL_PEOPLE_DONG_202206.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202207.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202208.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202209.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202210.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202211.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202212.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202301.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202302.csv   | 284929 [32m++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202303.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202304.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202305.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202306.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202307.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202308.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202309.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202310.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202311.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202312.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202401.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202402.csv   | 295105 [32m++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202403.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202404.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202405.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202406.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202407.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202408.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202409.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202410.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202411.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202412.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202501.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202502.csv   | 284929 [32m++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202503.csv   | 315457 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202504.csv   | 305281 [32m+++++++++++++++[m
+ .../data/population/LOCAL_PEOPLE_DONG_202505.csv   | 315457 [32m+++++++++++++++[m
+ .../notebooks}/01_preprocessing.ipynb              |      0
+ .../output}/corr_log_population_power.png          |    Bin
+ dr_project/output/corr_pilot_2023.csv              |    849 [32m+[m
+ dr_project/output/corr_population_power.png        |    Bin [31m0[m -> [32m94787[m bytes
+ dr_project/output/efficiency_2023_2024.csv         |  10177 [32m+[m
+ {output => dr_project/output}/efficiency_36m.csv   |      0
+ dr_project/output/efficiency_classified.csv        |    425 [32m+[m
+ dr_project/output/energy_long_clean.csv            |  40705 [32m++[m
+ dr_project/output/hourly_power_2023_2024.csv       | 244225 [32m++++++++++++[m
+ {output => dr_project/output}/hourly_power_36m.csv |      0
+ .../output}/hourly_ratio_sample.png                |    Bin
+ {output => dr_project/output}/node_list.csv        |      0
+ dr_project/output/pilot_hourly_power_2023.csv      |  20353 [32m+[m
+ dr_project/output/pop_ratio_2023.csv               |  20353 [32m+[m
+ dr_project/output/pop_ratio_36m.csv                | 366337 [32m++++++++++++++++++[m
+ dr_project/output/pop_ratio_all.csv                | 366337 [32m++++++++++++++++++[m
+ 84 files changed, 12308383 insertions(+), 104 deletions(-)
